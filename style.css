@@ -90,6 +90,7 @@ h1 {
     list-style-type: none;
     text-align: center;
     justify-content: center;
+    margin: -50px;
 }
 
 #about > h2 {
@@ -110,6 +111,10 @@ h1 {
     font-weight: bold;
 }
 
+#education > li, #skills > li {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
 /*****************
     TECHNOLOGIES 
 *****************/
@@ -123,7 +128,7 @@ h1 {
 }
 
 #group-one, #group-two  {
-    padding: 60px 300px 60px 300px;
+    padding: 60px 400px 60px 400px;
     color: teal;
     font-size: 5em;
     display: flex;
@@ -214,7 +219,7 @@ button, .btn {
 *****************/
 #contact {
     text-align: center;
-    margin-top: -50px;
+    margin: -50px -50px -80px -50px;
     padding-top: 100px;
     padding-bottom: 80px;
 }
@@ -229,7 +234,7 @@ button, .btn {
 }
 
 #input-name {
-    margin-left: 365px;
+    margin-left: 390px;
 }
 
 #input-comment {
