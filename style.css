@@ -1,0 +1,255 @@
+/**********************
+    GENERAL SETTINGS 
+**********************/
+html {
+    scroll-behavior: smooth;
+}
+
+h1, h2{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+body {
+    font-family: 'Ubuntu Mono', monospace;
+}
+
+/*****************
+    NAVIGATION 
+*****************/
+.navbar {
+    background-color: black;
+    /* margin: -50px -50px 0 -50px; */
+    padding: 20px;
+}
+
+#name {
+    color: white;
+    margin-top: -10px;
+}
+
+.nav {
+    display: flex;
+    float: right;
+    list-style-type: none;
+    text-decoration: none;
+    padding: 0 20px 0 20px; 
+}
+
+.nav > li > a {
+    color: white;
+}
+
+.nav > li > a:hover {
+    color: hotpink;
+}
+
+#navigation {
+    color: white;
+}
+
+/*****************
+    HEADER 
+*****************/
+#header {
+    height: 700px;
+    background-color: black;
+    color: white;
+    padding-top: 400px;
+    margin-top: -50px;
+    margin-right: -20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2em;
+    /* text-align: center; */
+}
+
+.fa-chevron-circle-down {
+    color: white;
+    font-size: 5em;
+    /* text-align: center; */
+    height: 300px;
+    padding-right: 20px;
+}
+
+.fa-chevron-circle-down:hover {
+    color: red;
+}
+
+/*****************
+    ABOUT ME
+*****************/
+#about {
+    background-color: white;
+    color: black;
+    height: 800px;
+    padding-top: 100px;
+    list-style-type: none;
+    text-align: center;
+    justify-content: center;
+}
+
+#about > h2 {
+    padding-bottom: 80px;
+}
+
+#skills {
+    padding-top: 50px;
+}
+
+#education, #skills {
+    font-size: 18px;
+    text-align: left;
+    padding-left: 450px;
+}
+
+#education-title, #skills-title {
+    font-weight: bold;
+}
+
+/*****************
+    TECHNOLOGIES 
+*****************/
+#technologies {
+    /* background-color: gainsboro; */
+    color: black;
+    padding-top: 100px;
+    padding-bottom: 150px;
+    text-align: center;
+    margin-right: -50px;
+}
+
+#technologies > i {
+    
+}
+
+#group-one, #group-two  {
+    padding: 60px 300px 60px 300px;
+    color: teal;
+    font-size: 5em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.col-md-3 {
+    text-align: center;
+}
+
+/*****************
+    PORTFOLIO 
+*****************/
+
+#portfolio {
+    text-align: center;
+    margin-top: -50px;
+    background-color: black;
+    color: white;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+button, .btn {
+    background-color: black;
+    color: white;
+    border-radius: 25px;
+    height: 60px;
+    width: 150px;
+    padding-bottom: 30px;
+    margin: auto;
+    text-align: center;
+}
+
+.btn > h3 {
+    font-size: 1em !important;
+}
+
+#buttons {
+   text-align: center;
+   margin-top: 50px;
+   margin-bottom: 30px;
+}
+
+.btn:hover {
+    background-color: purple;
+    color: white;
+}
+
+#gallery {
+    margin-top: 100px;
+    margin-left: 300px;
+}
+
+#gallery > .col-sm-4 {
+    width: 300px;
+}
+/* #gallery > .row {
+    padding-bottom: 50px;
+} */
+
+.img-thumbnail {
+    height: 200px;
+    width: 300px;
+    margin-bottom: 20px;
+    /* display: flex;
+    flex-direction: row; */
+}
+
+.img-thumbnail:hover {
+    transform: scale(1.1);
+}
+
+#simon {
+    height: 250px;
+    width: 300px;
+}
+
+#question-mark {
+    height: 200px;
+    width: 300px;
+    font-size: 5em;
+}
+
+/*****************
+    CONTACT 
+*****************/
+#contact {
+    text-align: center;
+    margin-top: -50px;
+    padding-top: 100px;
+    padding-bottom: 80px;
+}
+
+.form-row {
+    margin-top: 50px;
+}
+
+#input-name, #input-email {
+    margin-top: 30px;
+    width: 50%;
+}
+
+#input-name {
+    margin-left: 365px;
+}
+
+#input-comment {
+    margin-top: 50px;
+    display: flex;
+    width: 50%;
+    justify-content: center;
+}
+
+#submit-button {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+ }
+
+/*****************
+    FOOTER 
+*****************/
+footer {
+    text-align: center;
+    padding-bottom: 50px;
+}

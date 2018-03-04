@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Portfolio</title>
+        
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" 
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" 
+        crossorigin="anonymous">
+        
+
+        <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Ubuntu+Mono" rel="stylesheet">
+        
+        <link rel="stylesheet" href="style.css">  
+        <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+    </head>
+    <body>
+        <nav class="navbar navbar-fixed-top" id="navigation">
+            <div class="container">
+                <!-- <div class="navbar-header"> -->
+                    <a class="navbar-brand" id="name" href="#">Monica Babaian</a>
+                <!-- </div> -->
+                <ul class="nav">
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#technologies">Technologies</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
+                </ul>
+            </div>   
+        </nav>
+        <div class="jumbotron" id="header">
+            <h1 class="align-middle" id="title">Librarian and Web Developer</h1>
+            <a href="#about" id="arrow-down"><i class="fas fa-chevron-circle-down"></i></a>
+        </div>
+        <!-- </div>       -->
+        <div class="jumbotron" id="about">
+            <h2>About Me</h2> 
+            <div class="row">                              
+                <div class="col" id="col-one">
+                    <div id="education">
+                        <h3 id="education-title">Education</h3>
+                        <li>Masters in Library Science, University of North Texas, 2008.</li>
+                        <li>Bachelor of Arts in History and German Studies, University of Houston, 2002.</li>
+                    </div>
+                </div>
+            </div> 
+            <!-- </div> -->
+            <div class="row">
+                <div class="col" id="col-two">
+                    <div id="skills">
+                        <h3 id="skills-title">Skills</h3>
+                        <li>Collection Development</li>
+                        <li>Diversity and Inclusion</li>
+                        <li>Curriculum Development and Instruction</li>
+                        <li>Research Methodologies</li>
+                        <li>Copy Cataloging</li>
+                    </div>
+                </div>
+            </div>
+        </div>   
+        <div class="jumbotron" id="technologies">
+            <h2>Technologies</h2>
+            <div class="row">
+                <div class="col" id="group-one">
+                    
+                        <i class="fab fa-python"></i>
+                  
+                  
+                        <i class="fab fa-node"></i>
+                  
+                    
+                        <i class="fab fa-github"></i>
+                    
+                        <i class="fab fa-react"></i>
+                     
+                </div>
+            <!-- </div> -->
+            <div class="col" id="group-two">
+                
+                        <i class="fab fa-html5"></i>
+                    
+                        <i class="fab fa-npm"></i>
+                    
+                        <i class="fab fa-sass"></i> 
+                    
+                        <i class="fab fa-facebook-messenger"></i>
+                   
+                </div>
+            </div>
+        </div> 
+        <!-- END TECHNOLOGIES -->
+        <div class="jumbotron" id="portfolio">
+            <h2>Portfolio</h2>
+            <!-- <div id="buttons">
+                <div class="button-group">
+                    <button class="btn" id="all">
+                        <h3>All</h3>
+                    </button>
+                    <button class="btn" id="front-end" data-filter="#front-end">
+                        <h3>Front End</h3>
+                    </button>
+                    <button class="btn" id="back-end" data-filter="#back-end">
+                        <h3>Back End</h3>
+                    </button>
+                    <button class="btn" id="full-stack" data-filter="#full-stack">
+                        <h3>Full Stack</h3>
+                    </button>   
+                    <button class="btn" id="bots" data-filter="#bots">
+                        <h3>Bots</h3>
+                    </button>          
+                </div> -->
+            <!-- </div> buttons div -->
+            <div class="container" id="gallery">
+                <!-- <div class="row"> -->
+                    <div class="col-sm-4 photo" id="front-end">
+                        <a href="http://sample-website.surge.sh/">
+                            <img src="images/sample_website.png" class="img-thumbnail" alt="Resi Clone">
+                        </a>
+                    </div>
+                    <div class="col-sm-4 photo" id="front-end">
+                        <a href="http://scattered-journey.surge.sh/">
+                            <img src="images/modus_clone.png" class="img-thumbnail" alt="Modus Clone">
+                        </a>
+                    </div>
+                    <div class="col-sm-4 photo" id="bots">
+                        <a href="https://github.com/mbabaian/yara">
+                            <img src="images/yara_logo2.png" class="img-thumbnail" alt="Young Adult Reader Advisory Bot">
+                        </a>   
+                    </div>
+                <!-- </div> -->
+                <!-- <div class="row"> -->
+                    <div class="col-sm-4 photo" id="bots">
+                        <a href="https://alternative-slacks.github.io/">
+                            <img src="images/alt-bot.png" class="img-thumbnail" alt="">
+                        </a>
+                    </div>
+                    <div class="col-sm-4 photo" id="back-end">
+                        <a href="https://itty-bitty.glitch.me/">
+                            <img src="images/itty-bitty-url.png" class="img-thumbnail" alt="">
+                        </a>
+                    </div>
+                    <div class="col-sm-4 photo" id="full-stack">
+                        <a href="https://github.com/mbabaian/dpla-search">
+                            <img src="images/dpla_search.png" class="img-thumbnail" alt="">
+                        </a>
+                    </div>
+                <!-- </div>
+                <div class="row"> -->
+                    <div class="col-sm-4 photo" id="back-end">
+                        <a href="https://mbabaian-timestamp.glitch.me/">
+                            <img src="images/timestamp.png" class="img-thumbnail" alt="URL Shortener Microservice">
+                        </a>
+                    </div>
+                    <div class="col-sm-4 photo" id="back-end">
+                        <a href="https://github.com/mbabaian/fcc-header-parser">
+                            <img src="images/who_am_i.png" class="img-thumbnail" id="who-am-i" alt="Request Header Parser Microservice">
+                        </a>
+                    </div>
+                    <div class="col-sm-4 photo">
+                        <a href="">
+                            <i class="fas fa-question img-thumbnail" id="question-mark"></i>
+                        </a>
+                    </div>
+                <!-- </div>
+                    <div class="row"> -->
+                        <div class="col-sm-4 photo">
+                            <a href="https://codepen.io/mbabaian/full/vpvNQW/"  id="front-end">
+                                <img src="images/simon.png" class="img-thumbnail"  id="simon" alt="Simon Game">
+                            </a>
+                        </div>
+                        <div class="col-sm-4 photo" id="front-end">
+                            <a href="https://codepen.io/mbabaian/full/RxBjYO/">
+                                <img src="images/pomodoro_clock.png" class="img-thumbnail" alt="Pomodoro Clock">
+                            </a>
+                        </div>
+                        <div class="col-sm-4 photo" id="front-end">
+                            <a href="https://codepen.io/mbabaian/full/JpdVJE/">
+                                <img src="images/react_markdown.png" class="img-thumbnail">
+                            </a>
+                        </div>
+                    </div>
+                    
+                <!-- </div> -->
+            </div> <!-- END PORTFOLIO --> 
+        <div class="jumbotron" id="contact">
+            <h2>Contact Me</h2>
+            <form method="POST" action="https://formspree.io/monica.babaian@gmail.com">
+                <div class="form-row">
+                    <div class="form-group col-lg-6">
+                        <input type="text" name="name" class="form-control" id="input-name" placeholder="Name">
+                    </div>
+                    <div class="form-group col-lg-6">
+                        <input type="email" name="email" class="form-control" id="input-email" placeholder="Email">
+                    </div>
+                </div>  
+                <textarea class="form-control center-block" name="message" rows="5" id="input-comment"  placeholder="Get in touch"></textarea>
+                <button type="submit" value="Send" id="submit-button">
+                    <h3>Submit<h3>
+                </button>
+            </form>
+                <!-- <label for="input-comment">Comment</label> -->
+                
+                
+        </div>
+        <div>
+            <footer>
+                <h4>Created with Bootstrap 3, isotope.js, jQuery, Font Awesome</h4>
+                <h5>Code for this website available at </h5>
+            </footer>
+        </div>
+        <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>     
+        <!-- instructions on parallax http://pixelcog.github.io/parallax.js/ -->
+
+        
+        <!-- <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script> -->
+        <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+        <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>
