@@ -8,7 +8,7 @@ var $gallery = $('#gallery').isotope({
     layoutMode: 'masonry',
     masonry: {
         gutter:5
-    }
+    },
   });
 
   // always use imagesLoaded when using isotope

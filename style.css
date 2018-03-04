@@ -25,6 +25,8 @@ body {
 #name {
     color: white;
     margin-top: -10px;
+    font-size: 1.5em;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 .nav {
@@ -120,10 +122,6 @@ h1 {
     margin-right: -50px;
 }
 
-#technologies > i {
-    
-}
-
 #group-one, #group-two  {
     padding: 60px 300px 60px 300px;
     color: teal;
@@ -183,14 +181,15 @@ button, .btn {
 #gallery > .col-sm-4 {
     width: 300px;
 }
-/* #gallery > .row {
-    padding-bottom: 50px;
-} */
+
+.photo {
+    padding-bottom: 15px;
+}
 
 .img-thumbnail {
     height: 200px;
     width: 300px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     /* display: flex;
     flex-direction: row; */
 }
@@ -244,6 +243,8 @@ button, .btn {
     text-align: center;
     margin-top: 50px;
     margin-bottom: 30px;
+    font-size: 1.5em;
+    padding-top: 12px;
  }
 
 /*****************
@@ -251,5 +252,5 @@ button, .btn {
 *****************/
 footer {
     text-align: center;
-    padding-bottom: 50px;
+    padding-bottom: 10px;
 }
