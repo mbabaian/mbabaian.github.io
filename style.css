@@ -189,7 +189,7 @@ button:hover, .btn:hover {
     width: 300px;
 }
 
-.img, .img-thumbnail {
+.img {
     height: 200px;
     width: 300px;
     margin-bottom: 10px;
