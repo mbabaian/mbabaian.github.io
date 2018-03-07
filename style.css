@@ -57,7 +57,7 @@ body {
     color: white;
     padding-top: 400px;
     margin-top: -50px;
-    margin-right: -20px;
+    margin-right: -50px;
     text-align: center;
 }
 
@@ -121,6 +121,7 @@ h1 {
     padding-bottom: 150px;
     text-align: center;
     margin-right: -50px;
+    margin-bottom: -50px;
 }
 
 #group-one, #group-two  {
@@ -141,12 +142,13 @@ h1 {
 
 #portfolio {
     text-align: center;
-    margin: -50px;
+    margin-right: -50px;
     height: 1200px;
     background-color: black;
     color: white;
     padding: 100px;
     height: 100%;
+    /* width: 100%; */
 }
 
 button, .btn {
