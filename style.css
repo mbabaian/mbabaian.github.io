@@ -73,15 +73,15 @@ h1 {
 }
 
 .fa-chevron-circle-down:hover {
-    color: red;
+    color: tomato;
 }
 
 /*****************
     ABOUT ME
 *****************/
 #about {
-    background-color: white;
-    color: black;
+    background-color: teal;
+    color: white;
     height: 800px;
     padding-top: 100px;
     list-style-type: none;
@@ -125,15 +125,11 @@ h1 {
 }
 
 #group-one, #group-two  {
-    padding: 60px 400px 60px 400px;
+    margin-top: 60px;
     color: teal;
     font-size: 5em;
-    display: flex;
-    justify-content: space-between;
-}
-
-.col-md-3 {
-    text-align: center;
+    justify-content: space-around;
+    column-width: 30%;
 }
 
 /*****************
@@ -148,16 +144,14 @@ h1 {
     color: white;
     padding: 100px;
     height: 100%;
-    /* width: 100%; */
 }
 
 button, .btn {
     background-color: black;
     color: white;
-    border-radius: 25px;
-    height: 60px;
+    border-radius: 50px;
     width: 150px;
-    padding-bottom: 40px;
+    padding-bottom: 10px;
     margin: auto;
     text-align: center;
 }
@@ -168,8 +162,8 @@ button, .btn {
 
 #buttons {
    text-align: center;
-   margin-top: 50px;
-   margin-bottom: 30px;
+   /* margin-top: 20px;
+   margin-bottom: 30px; */
 }
 
 button:hover, .btn:hover {
@@ -236,12 +230,18 @@ button:hover, .btn:hover {
 }
 
 #submit-button {
-    text-align: center;
-    margin-top: 50px;
-    margin-bottom: 30px;
-    font-size: 1.5em;
-    padding-top: 12px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    height: 40px;
+    width: 90px;
+    padding: 10px 0 20px 0 !important;
+    border-radius: 5px !important;
+    background-color: cornflowerblue;
  }
+
+ #submitt-button > h3 {
+     vertical-align: middle !important;
+ } 
 
 /*****************
     FOOTER 
