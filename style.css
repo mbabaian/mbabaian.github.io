@@ -1,6 +1,11 @@
 /**********************
     GENERAL SETTINGS 
 **********************/
+
+html, body {
+    width: 100%;
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -11,6 +16,11 @@ h1, h2{
 
 body {
     font-family: 'Ubuntu Mono', monospace;
+    overflow-x:hidden;
+}
+
+.jumbotron {
+    height: 100%;
 }
 
 /*****************
@@ -52,12 +62,12 @@ body {
     HEADER 
 *****************/
 #header {
-    height: 730px;
+    height: 100%;
     background-color: black;
     color: white;
     padding-top: 400px;
     margin-top: -50px;
-    margin-right: -50px;
+    /* margin-right: -50px; */
     text-align: center;
 }
 
@@ -80,9 +90,7 @@ h1 {
     ABOUT ME
 *****************/
 #about {
-    background-color: teal;
-    color: white;
-    height: 800px;
+    height: 100%;
     padding-top: 100px;
     list-style-type: none;
     text-align: center;
@@ -96,6 +104,7 @@ h1 {
 
 #skills {
     padding-top: 30px;
+    padding-bottom: 50px;
 }
 
 #education, #skills {
@@ -116,6 +125,7 @@ h1 {
     TECHNOLOGIES 
 *****************/
 #technologies {
+    background-color: lightgray;
     color: black;
     padding-top: 100px;
     padding-bottom: 150px;
@@ -125,11 +135,11 @@ h1 {
 }
 
 #group-one, #group-two  {
-    margin-top: 60px;
+    padding: 60px 400px 60px 400px;
     color: teal;
     font-size: 5em;
-    justify-content: space-around;
-    column-width: 30%;
+    display: flex;
+    justify-content: space-between;
 }
 
 /*****************
@@ -174,7 +184,7 @@ button:hover, .btn:hover {
 #gallery {
     display: flex;
     flex-direction: row;
-    margin-top: 100px;
+    margin-top: 30px;
     width: 100%;
     text-align: center;
     justify-content: center;
@@ -193,11 +203,6 @@ button:hover, .btn:hover {
 
 .img:hover {
     transform: scale(1.1);
-}
-
-#simon    {
-    height: 250px;
-    width: 300px;
 }
 
 /*****************
@@ -224,7 +229,7 @@ button:hover, .btn:hover {
 #input-comment {
     margin-top: 30px;
     display: flex;
-    width: 300px;
+    width: 500px;
     justify-content: center;
     color: tomato;
 }
